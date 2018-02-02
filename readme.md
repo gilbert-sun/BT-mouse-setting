@@ -32,7 +32,24 @@ Highlight it and right-click the device entry for Designer Mouse and choose Trus
 
 ![](./devices.png)
 
-## 5).Ref site
+## 5). Git instruction
+Some git inst listing as below
+
+    git init
+    git add *
+    git commit -m "first commit"
+    git remote -v
+    git remote add origin git@github.com:gilbert-sun/BT-mouse-setting.git
+    git push -u origin master
+Finally, we can see result
+
+    root@gilbert0-GP72-6QE:/home/gilbert0/Documents/2018Feb2_BTkbSetting# git remote -v
+    origin	git@github.com:gilbert-sun/BT-mouse-setting.git (fetch)
+    origin	git@github.com:gilbert-sun/BT-mouse-setting.git (push)
+
+## 6).Ref site
 1). https://www.ianthurston.com/fixes/ubuntu-designer-mouse-inspiron/
+
 2). https://askubuntu.com/questions/777199/bluetooth-le-and-ubuntu-16-04-sometimes-works-other-times-not
+
 3). http://forum.ubuntu.org.cn/viewtopic.php?f=54&t=483706&p=3189871
